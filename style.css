@@ -1,0 +1,74 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: aqua;
+   
+}
+.logo {
+    float: left;
+    width: 50%;
+ 
+}
+.logo h2{
+    padding: 10px;
+    color: brown;
+    font-size: 50PX;
+}
+.list {
+    float: right;
+    width: 50%;
+   
+}
+.list ul {
+    list-style-type: none;
+    
+}
+.list a{
+    text-decoration: none;
+}
+.list li{
+    display: inline-block;
+    padding: 10px;
+    margin-top: 20px;
+  
+}
+.list li a{
+    border: 1px solid red;
+    background-color: beige;
+    padding: 10px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+   
+}
+.list li a:hover{
+    background-color: rgb(236, 22, 22);
+}
+.heading h1{
+    margin-left:320px;
+    padding-top: 250px;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(216, 54, 25);
+}
+.smalltitle  {
+   
+    margin-left: 450px;
+    margin-top: 15px;
+   
+}
+.smalltitle li{
+    display: inline-block;
+}
+.smalltitle li a{
+    padding: 10px;
+    text-decoration: none;
+    border: 1px solid greenyellow;
+    background-color: rgb(201, 193, 209);
+}
+.smalltitle li a:hover{
+    background-color: yellow;
+}
+footer iframe{
+    float: right;
+}
